@@ -9,6 +9,7 @@
 		"Awesome",
 		"WP"
 	],
+	"type" : "wordpress-plugin",
 	"authors": [
 		{
 			"name": "Dennis van der Velde",
