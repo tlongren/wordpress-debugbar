@@ -5,8 +5,6 @@
 Is a debugbar based on the famous Debugbar from Maximebf.
 
 
-To prevent the usage of Composer, I added the vendor folder with all the required files in the repo, untill I find a way around Composer.
-
 ## Usage
 
 To use this plugin, simply download a zip of this repo, and install it through Wordpress or copy the files into a folder in the plugins folder. 

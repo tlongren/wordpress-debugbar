@@ -1,9 +1,7 @@
 {
-
-
 	"name": "dennie170/wordpress-debugbar",
 	"description": "Finally a good way to debug you Wordpress projects!",
-	"license": "WTFPL",
+	"license": "MIT",
 	"keywords": [
 		"Wordpress",
 		"Debugbar",
@@ -19,16 +17,16 @@
 	],
 
 	"require": {
-			"maximebf/debugbar": "1.*",
-			"symfony/Http-Kernel": "*"
-		},
-		"require-dev": {
-			
-		},
+		"symfony/Http-Kernel": "*",
+		"maximebf/debugbar": "^1.10"
+	},
 
-		"autoload" : {
-			"psr-4": {
-				"Dennie170\\DebugBar\\" : "src/"
-			}
-		}
+	"autoload" : {
+		"psr-4": {
+			"Dennie170\\DebugBar\\" : "src/"
+		},
+		"files" : [
+			"helpers.php"
+		]
+	}
 }
