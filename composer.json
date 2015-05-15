@@ -29,5 +29,10 @@
 		"files" : [
 			"helpers.php"
 		]
+	},
+	"scripts" : {
+		"post-package-install" : [
+			"composer install"
+		]
 	}
 }
